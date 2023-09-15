@@ -50,7 +50,7 @@ function logValidate(e,myCallback) {
       if (user.value.trim() != '' && pwd.value.trim() != '' && user.value == "admin" && pwd.value== "12345") {
 
         //alert('You are successfully logged in');
-        window.location = "index.html";
+        window.location = "home.html";
         return true;
     
       }
